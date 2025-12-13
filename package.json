@@ -1,0 +1,25 @@
+{
+  "name": "@sequentialos/server-utilities",
+  "version": "1.0.0",
+  "description": "Server utilities including cache, task executor, logging, config",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnEntrypoint/sequential-server-utilities"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@sequentialos/config-management": "*",
+    "node-cron": "^3.0.3"
+  },
+  "owner": "Utilities"
+}
